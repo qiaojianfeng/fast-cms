@@ -1,0 +1,39 @@
+{
+  "name": "fast",
+  "version": "1.0.0",
+  "description": "a fast web-server on base koa",
+  "main": "/server/app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/app.js --watch server",
+    "start": "NODE_ENV=production node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "apidoc -i server/ -o public/apidoc/"
+  },
+  "keywords": [
+    "nodejs",
+    "koa",
+    "二次开发",
+    "apidoc",
+    "前后端分离",
+    "log4"
+  ],
+  "author": "qiaojianfeng",
+  "license": "MIT",
+  "dependencies": {
+    "consola": "^2.15.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-history-api-fallback": "^0.1.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.11.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "apidoc": "^0.25.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
