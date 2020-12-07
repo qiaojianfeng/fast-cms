@@ -69,7 +69,7 @@
 git clone https://github.com/webweifeng/fast-cms.git
 
 # 进入文件夹
-cd vue-base-tpl
+cd fast-cms
 
 # 安装项目依赖文件
 npm install
