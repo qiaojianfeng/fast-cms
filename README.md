@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="http://doc.cms.7yue.pro/">
+  <a href="https://webweifeng.github.io/fast-cms/">
   <img src="./logo.png" width="250"/></a>
   <br>
 </h1>
@@ -66,7 +66,7 @@
 
 ```bash
 # 克隆到本地
-git clone git@github.com:webweifeng/vue-base-tpl.git
+git clone https://github.com/webweifeng/fast-cms.git
 
 # 进入文件夹
 cd vue-base-tpl
